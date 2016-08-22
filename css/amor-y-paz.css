@@ -127,7 +127,7 @@ input:focus, textarea:focus {
 
 .titulo {
   font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-size: 61px;
   margin-bottom: 0;
   margin-top: 70px;
 }
@@ -235,8 +235,11 @@ input:focus, textarea:focus {
 .derecha {
   float: right;
   position: relative;
-  top: -90px;
-}
+  top: -76px;
+ }
+
+ 
+   
 
 .izquierda {
   float: left;
@@ -261,7 +264,7 @@ input:focus, textarea:focus {
 .footer {
   background: #fd324e;
   background: linear-gradient(to left, #fe344e, #da2e2a); /*background: #273b47;*/ /*Estilos pie de pajina*/
-  padding: 50px 60px;
+  padding: 50px -0px;
 }
 
 .contacto {
@@ -365,8 +368,15 @@ input:focus, textarea:focus {
   margin-bottom: 80px;
 }
 
-@media screen and (max-width: 800px) {
-  /*body {
+@media screen and (max-width: 800px) { 
+
+ 
+ 
+
+ 
+
+
+ /*body {
     border: 10px solid red;
   }*/
   /*.contenedor {
@@ -433,6 +443,8 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 767px) {
+
+  
   /* footer */
   .footer .contenedor {
     display: block;
@@ -460,7 +472,7 @@ input:focus, textarea:focus {
     padding: 5px;
   }
   textarea {
-    width: 100%;
+    width: 98%;
   }
   input[type="radio"],
   input[type="checkbox"] {
@@ -470,6 +482,7 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 650px) {
+  
 
   .header {
     text-align: center;
@@ -502,6 +515,7 @@ input:focus, textarea:focus {
 
 
 @media screen and (max-width: 500px) {
+  
   /* portada */
   .portada .button {
     display: block;
@@ -609,9 +623,10 @@ video {
   height: 100%;
 }
 
-
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
+  
   .background {
     background-image: url('../images/amorypaz2.jpg');
+
   }
 }
